@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.a:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.head{
+	width: 100%;
+	height: 80px;
+	/*border: 1px solid red;*/
+}
+.head1{
+	width: 1200px;
+	height: 80px;
+	/*border: 1px solid red;*/
+	margin: auto;
+}
+.head2{
+	width: 370px;
+	height: 80px;
+/*	border: 1px solid red;*/
+	
+}
+.head2 ul{
+	width: 370px;
+	height: 80px;
+	/*border: 1px solid red;*/
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	margin-left:328px;
+	margin-top: -88px;
+	line-height: 80px;
+}
+.zhuce{
+	width: 50px;
+	height: 20px;
+	border: 1px solid red;
+	margin-left: 1142px;
+	margin-top: -77px;
+	text-align: center;
+	color: red;
+}
+.head_ul{
+	width:300px;
+	/*margin: auto;*/
+	list-style:none;
+	margin-left: 663px;
+}
+.head_ul:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.head_ul>li{
+	width: 100px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	
+}
+.head_ul>li:hover{
+	border-bottom:2px solid orangered ;
+	color: orangered;
+	}
+.section{
+	width: 100%;
+	height: 1600px;
+	background-color:#F7F7F7;
+}	
+.section-4{
+	width: 1200px;
+	height: 335px;
+/*	border: 1px solid palevioletred;*/
+    margin: auto;
+}
+.b>li{
+	width: 280px;
+	height: 335px;
+	border: 1px solid #e5e6eb;
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	margin-top: 30px;
+    background-color: white;
+}
+.c{
+	list-style: none;
+	
+}
+.c>li{
+	float: left;
+	width: 280px;
+	margin-left: 15px;
+
+}
+.c>li>img{
+	margin-left: 200px;
+}
+.section-4 ul li p>img{
+	width: 280px;
+	
+}
+.footer{
+	width: 100%;
+	height: 500px;
+	background-color: #505050;
+	margin-top: 60px;
+}
+.footer1{
+	width: 1200px;
+	height: 500px;
+	/*border: 1px solid blue;*/
+	margin: auto;	
+}
+.footer1 ul{
+	width: 1200px;
+	height: 500px;
+	/*border: 1px solid blue;*/
+	list-style: none;	
+}
+.footer1 ul li{
+	width:198px;
+	height: 500px;
+	/*border: 1px solid blue;*/
+	float: left;	
+}
+.footer1 ul li>.hanzi-15{
+	color: #6F7465;
+	font-size: 15px;
+}
+.footer1 ul li>.hanzi-16{
+	color: #6F7465;
+	font-size: 15px;
+}
+.hanzi-17 span{
+	color: #6F7465;
+	font-size: 15px;
+	margin-left: 18px;
+}

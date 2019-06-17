@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.a:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.head{
+	width: 100%;
+	height: 80px;
+	/*border: 1px solid red;*/
+}
+.head1{
+	width: 1200px;
+	height: 80px;
+	/*border: 1px solid red;*/
+	margin: auto;
+}
+.head2{
+	width: 370px;
+	height: 80px;
+/*	border: 1px solid red;*/
+	
+}
+.head2 ul{
+	width: 370px;
+	height: 80px;
+	/*border: 1px solid red;*/
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	margin-left:328px;
+	margin-top: -88px;
+	line-height: 80px;
+}
+.zhuce{
+	width: 50px;
+	height: 20px;
+	border: 1px solid red;
+	margin-left: 1142px;
+	margin-top: -77px;
+	text-align: center;
+	color: red;
+	
+}
+.head_ul{
+	width:300px;
+	/*margin: auto;*/
+	list-style:none;
+	margin-left: 663px;
+}
+.head_ul:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+.head_ul>li{
+	width: 100px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+.head_ul>li:hover{
+	border-bottom:2px solid orangered ;
+	color: orangered;
+}
+.section{
+	width: 1200px;
+	margin: auto;
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+}
+.section-left{
+	width: 750px;
+/*	border: 1px solid blue;*/
+}
+.section-1{
+	color: gray;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.two{
+	width: 600px;
+	height: 100px;
+/*	border: 1px solid pink;*/
+	background-color: #F3EEEB;
+	margin-top:-103px;
+	opacity: 0.7;
+}
+.three{
+	width: 600px;
+	height: 40px;
+	border: 1px solid #BAB3B8;
+	text-align: center;
+	color: #BAB3B8;
+	margin-top: 20px;
+	line-height: 40px;
+	border-radius:5px;
+	margin-bottom: 20px;
+}
+.section-right{
+	width: 400px;
+	/*border: 1px solid blueviolet;*/
+	position: absolute;
+	top:236px;
+	left:922px;
+}
+.goumai{
+	width: 150px;
+	height: 50px;
+	/*border: 1px solid red;*/
+}
+.aaa1{
+	width: 6px;
+	height: 25px;
+    margin-top: 5px;
+	background-color:#f65742;
+	margin-left: 0px;
+}
+.zi5{
+	width: 300px;
+	color: #B8BCBF;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.footer{
+	width: 100%;
+	height: 500px;
+	background-color: #505050;
+}
+.footer1{
+	width: 1200px;
+	height: 500px;
+	/*border: 1px solid blue;*/
+	margin: auto;	
+}
+.footer1 ul{
+	width: 1200px;
+	height: 500px;
+	/*border: 1px solid blue;*/
+	list-style: none;	
+}
+.footer1 ul li{
+	width:198px;
+	height: 500px;
+	/*border: 1px solid blue;*/
+	float: left;	
+}
+.footer1 ul li>.hanzi-15{
+	color: #6F7465;
+	font-size: 15px;
+}
+.footer1 ul li>.hanzi-16{
+	color: #6F7465;
+	font-size: 15px;
+}
+.hanzi-17 span{
+	color: #6F7465;
+	font-size: 15px;
+	margin-left: 18px;
+}
+
